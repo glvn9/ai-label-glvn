@@ -140,7 +140,6 @@ footer img {
   top: 20px;
   right: 20px;
   font-size:.7em;
-  width: 120px;
   text-align: right;
 }
 .switch-lang a { 
@@ -297,17 +296,19 @@ footer img {
 }
 .download-link {
   border-radius: 25px;
-  border: 1px double lightgray;
   padding: .8em 1em;
   text-decoration: none;
   background: linear-gradient(0deg, transparent, white 100%),
-  linear-gradient(90deg, #83fbdb,#94caea,#f4ff80);
+  linear-gradient(0deg, #83fbdb,#94caea,#f4ff80);
   transition: ease-in-out 0.5s;
 }
 
 .download-link:hover {
   box-shadow: 0px 1px 4px rgba(100, 100, 100, .5);
   background: linear-gradient(35deg, #83fbdb,#94caea,#f4ff80);
+  background: linear-gradient(0deg, transparent, white 100%),
+  linear-gradient(90deg, #83fbdb,#94caea,#f4ff80);
+  transition: ease-in-out 0.5s;
 }
 
 .download-link:active {
@@ -321,6 +322,7 @@ footer img {
   0 0 18px #83fbdb,
   0 0 36px #94caea,
   0 0 54px #f4ff80;
+  transition: ease-in-out 0.5s;
 }
 
 .photo-block {
